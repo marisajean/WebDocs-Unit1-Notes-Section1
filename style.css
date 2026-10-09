@@ -1,20 +1,15 @@
-/* We can use the "*" selector to apply a rule to all of our html elements */
+/*Practicing using a universal selector */
 
-/* commented out so it doesn't apply 
-* {
-    color: purple;
-} 
-*/
 
-/* When selecting an element, we write the tag word as our selector
-
-div {
+/* When referring to a class as a selector, we use .class-name */
+.alert-text {
     color: red;
 }
 
-*/
+.top-alert {
+    font-weight: bold;
+}
 
-/* When selecting a class, we using .className as our selector */
-.items {
-    color: red;
+#password-tip {
+    color : gray;
 }
